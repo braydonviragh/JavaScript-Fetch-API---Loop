@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/10/13699/6e07ade0cfe8ec9f84fd2d4b3fa7fe60-1000.jpg");
+  font-size: 12px;
+}
+
+.title {
+  text-align: center;
+  padding: 40px;
+  color: white;
+  font-size: 32px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.member {
+  position: relative;
+  padding: 25px;
+  height: 350px;
+  width: 200px;
+  margin: 25px;
+  background-color: white;
+  border-radius: 12px;
+}
+.member_bio {
+  word-wrap: break-word;
+  height: 100px;
+  overflow-y: auto;
+  margin-bottom: 25px;
+}
+.member_bio p {
+  font-size: 16px;
+  overflow-y: auto;
+}
+.member_crown {
+  position: absolute;
+  right: 10px;
+}
+.member_crown img {
+  width: 25px;
+}
+.member_picture {
+  margin: 0 auto;
+
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.member_picture img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.member_name {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+}
+.skills_row {
+  display: flex;
+
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  width: 100%;
+  overflow-x: auto;
+}
+.skill_box {
+}
+
+.skill_box_two {
+  color: white;
+  background-color: grey;
+  margin: 0px 10px;
+  padding: 10px;
+  width: 50px;
+}
