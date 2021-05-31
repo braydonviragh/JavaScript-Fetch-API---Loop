@@ -31,6 +31,7 @@ function getEmployees()  {
                             if(employees[employee].employeehaspic == 1) { 
                                 profile+= "<img src='http://sandbox.bittsdevelopment.com/code1/employeepics/" +employees[employee].employeeid+ ".jpg'>"
                             } else { 
+                                //default pic if user doesnt upload one
                                 profile +="<img src='https://pbs.twimg.com/media/ElrAGHjX0AE2ema?format=png&name=small'>";
                             }
                 profile += "</div>";
